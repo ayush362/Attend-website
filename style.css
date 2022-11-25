@@ -1,0 +1,396 @@
+body {
+    margin: 0%;
+    padding: 0px 0px;
+    background-color: #f2f4ea;
+}
+
+.container {
+    width: 1280px;
+}
+
+.mx_center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_1 {
+
+    color: #1f4d36;
+}
+
+header {
+    border-bottom: 1px solid #1f4d36;
+}
+
+.header_inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: green;
+}
+
+.header_inner ul {
+    gap: 25px;
+    display: flex;
+    list-style: none;
+}
+
+.section_1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.s1_inner {
+    display: flex;
+    /* width: 100%;
+    height: 100%; */
+
+}
+
+.s1_div2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    width: 50%;
+}
+
+.s1_div2 h1 {
+    width: 600px;
+    font-size: 90px;
+    font-style: bold;
+    margin: 0;
+}
+
+.s1_btn {
+    display: block;
+}
+
+.button {
+    color: white;
+    background-color: #1f4d36;
+    padding: 10px 30px;
+    border-radius: 9999px;
+    text-decoration: none;
+}
+
+.s1_img {
+    width: 50%;
+}
+
+.section_2 {
+    color: #fff;
+    background-color: #1f4d36;
+}
+
+.section_2 h2 {
+    /* gap: 100px; */
+    padding-top: 100px;
+    margin-top: 0px;
+    width: 900px;
+    font-size: 55px;
+}
+
+.section_2 p {
+    width: 700px;
+    margin-bottom: 100px;
+}
+
+.s2_div2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.s2_div2 img {
+    border-radius: 9999px;
+}
+
+.s2_img {
+    display: block;
+    margin-top: 100px;
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section_3 {
+    padding-top: 300px;
+    color: #1f4d36;
+}
+
+.s3_tag {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+    width: 15%;
+    font-size: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s3_head {
+    display: flex;
+    font-size: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1050px;
+    text-align: center;
+}
+
+.s3_para {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.s3_para p {
+    width: 700px;
+    text-align: center;
+}
+
+.s3_img {
+    margin: 100px 0px;
+    width: 100%;
+}
+
+.s3_bottom {
+    display: flex;
+    margin-bottom: 100px;
+    /* gap: 50px; */
+    padding: 0 100px;
+}
+
+.s3_bottom_img {
+    /* padding-left: 50px; */
+    display: block;
+    width: 300px;
+    background: red;
+}
+
+.s3_end {
+    width: calc(100% - 300px);
+    padding-left: 30px;
+    /* margin-left: 35px; */
+    flex-shrink: 0;
+}
+
+.s3_end h2 {
+    font-size: 35px;
+    /* padding-left: 35px; */
+}
+
+.s3_end ul {
+    margin-bottom: 50px;
+    list-style-type: none;
+    /* background-color: red; */
+    padding: 0;
+    padding-right: 50px;
+}
+
+.s3_end li {
+    border-bottom: 1px solid #1f4d36;
+    padding: 20px 0px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.s3_li_btn {
+    background: #1f4d36;
+    color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    user-select: none;
+}
+
+.s3_li_content {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.s3_btn {
+    margin-top: 20px;
+    border: 1px solid #1f4d36;
+    color: #1f4d36;
+    border-radius: 9999px;
+    text-decoration: none;
+    /* margin-left: 35px; */
+    padding: 15px;
+}
+
+.section_4 {
+    padding-top: 50px;
+    padding-bottom: 220px;
+    background-color: hsl(150, 43%, 21%);
+    color: #fff;
+
+}
+
+.s4_head {
+    width: 700px;
+    font-size: 35px;
+
+    /* background-color: red; */
+    /* display: flex; */
+    /* justify-content: flex-end; */
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.s4_para {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    /* width: 600px; */
+    padding-bottom: 150px;
+}
+
+.section_4 ul {
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    gap: 60px;
+    list-style-type: none;
+
+    margin: 0;
+}
+
+.section_4 ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section_4 ul img {
+    padding: 30px;
+    height: 300px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+}
+
+.section_5 {
+    background-color: #cfe3cc;
+    padding: 100px;
+}
+
+.s5_inner {
+    display: flex;
+}
+
+.s5_inner img {
+    margin-left: 100px;
+}
+
+.s5_left {
+    width: 50%;
+    /* display: flex; */
+}
+
+
+.section_5 h2 {
+    font-size: 45px;
+}
+
+
+.s5_list_1 ul {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 20px;
+}
+
+.s5_list_1 li {
+    border-bottom: 1px solid #1f4d36;
+    margin-bottom: 50px;
+}
+
+.s5_list_2 ul {
+    list-style-type: none;
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 0;
+    padding-bottom: 100px;
+    gap: 20px;
+}
+
+.s5_list_2 li {
+    border: 1px solid #1f4d36;
+    border-radius: 9999px;
+    padding: 12px 20px;
+    transition: all 200ms ease-in;
+}
+
+.s5_list_2 li:hover {
+    background: #1f4d36;
+    color: #cfe3cc;
+    cursor: pointer;
+}
+
+
+.s5_list_2 span {
+    background-color: #1f4d36;
+    color: #fff;
+    border: 1px solid #1f4d36;
+    border-radius: 9999px;
+    padding: 20px 40px;
+}
+
+.section_6 {
+    background-color: #1f4d36;
+    color: #cfe3cc;
+    padding: 20px;
+}
+
+.section_6 h3 {
+    font-size: 35px;
+    padding-bottom: 50px;
+}
+
+.section_6 h2 {
+    width: 1000px;
+    font-size: 55px;
+}
+
+.s6_lists ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.s6_lists li {
+    margin-bottom: 16px;
+    opacity: 70%;
+}
+
+.s6_lists li:first-child {
+    color: white;
+    margin-bottom: 25px;
+    opacity: 100%;
+}
+
+.s6_lists {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: auto;
+}
+
+.s6_lists div {
+    display: flex;
+    gap: 100px;
+}
+
+.s6_end {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
